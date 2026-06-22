@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #12355b, #2563eb);
+  color: white;
+  padding-bottom: 70px;
+}
+
+nav {
+  max-width: 1000px;
+  margin: auto;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  font-size: 22px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  max-width: 1000px;
+  margin: 45px auto 0;
+  padding: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin: 18px 0 12px;
+}
+
+.hero p {
+  max-width: 600px;
+  font-size: 18px;
+}
+
+.primary-btn,
+.project-links a {
+  display: inline-block;
+  margin-top: 22px;
+  background: white;
+  color: #1d4ed8;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 55px 20px;
+}
+
+.section h2 {
+  color: #1d4ed8;
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.project-card {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+}
+
+.project-label {
+  color: #2563eb;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.project-links a {
+  background: #2563eb;
+  color: white;
+  margin-right: 10px;
+}
+
+.contact a {
+  color: #1d4ed8;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #111827;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
